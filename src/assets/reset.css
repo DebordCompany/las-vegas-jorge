@@ -5,16 +5,6 @@
   --tipo-principal: 'Montserrat Alternates', sans-serif;
   --tipo-secundaria: Montserrat;
 }
-
-/* Las adaptamos al modo oscuro */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --black: #ececec;
-  }
-}
-
-
-
 * {
   margin: 0;
   padding: 0;

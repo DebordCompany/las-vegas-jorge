@@ -18,11 +18,6 @@ const enlace = document.querySelectorAll("#enlace");
 boton.addEventListener("click", () => {
   menu.classList.toggle("activo");
   nav.classList.toggle("activo_nav");
+  console.log("click boton")
 });
-enlace.forEach((e) => {
-  e.addEventListener("click", () => {
-    menu.classList.remove("activo");
-    nav.classList.remove("activo_nav");
-    
-  });
-});
+
