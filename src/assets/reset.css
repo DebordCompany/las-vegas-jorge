@@ -4,6 +4,7 @@
   --black: #303030;
   --tipo-principal: 'Montserrat Alternates', sans-serif;
   --tipo-secundaria: Montserrat;
+  --radio-buttons: "0.3em";
 }
 * {
   margin: 0;
@@ -47,7 +48,7 @@ html {
 }
 
 /* Desactivamos estilos por defecto de las principales etiquetas de texto */
-h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i,  u, em {
+h1, h2, h3, h4, h5, h6, p, span, a, blockquote, i,  u, em {
   font-size: 1em;
   font-weight: inherit;
   font-style: inherit;
@@ -112,9 +113,9 @@ body {
   line-height: 1.6em;
   font-size: 15px;
   /* opcional */
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  -webkit-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
   /* opcional */
   font-smooth: always;
   /* opcional */

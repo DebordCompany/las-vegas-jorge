@@ -23,10 +23,7 @@ import triptico from "../components/triptico.vue";
 .portada {
   padding: 10em 0;
 }
-.max-width {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
 .local{
     background-color: var(--black);
     color: white;

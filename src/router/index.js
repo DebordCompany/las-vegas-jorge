@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import inicio from "../views/inicio.vue";
-import galeria from "../views/galeria.vue";
+import galeria from "../views/reservas.vue";
 import carta from "../views/carta.vue";
 
 
@@ -13,8 +13,8 @@ const router = createRouter({
       component: inicio,
     },
     {
-      path: "/galeria",
-      name: "galeria",
+      path: "/reservas",
+      name: "reservas",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.

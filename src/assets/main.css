@@ -1,4 +1,12 @@
+@import url(/src/assets/base.css);
 @import url(/src/assets/reset.css);
+:root {
+  --black: #303030;
+  --tipo-principal: "Montserrat Alternates", sans-serif;
+  --tipo-secundaria: Montserrat;
+  --radio-buttons: "0.3em";
+}
+
 .header {
   background-color: var(--black);
   color: white;
@@ -7,4 +15,9 @@
   font-weight: 400;
   padding: 1em;
   font-size: 1.5em;
+}
+
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */

@@ -6,7 +6,7 @@
     
     <div class="nav_enlaces" id="menu">
       <RouterLink id="enlace" to="/">Inicio</RouterLink>
-      <RouterLink id="enlace" to="/galeria">Galería</RouterLink>
+      <RouterLink id="enlace" to="/reservas">Reservas</RouterLink>
       <RouterLink id="enlace" to="/carta">Carta</RouterLink>
     </div>
   </nav>
@@ -24,7 +24,6 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   gap: 0em;
-  transition: gap 1s ease-in-out;
 }
 .nav_icono {
   display: flex;
@@ -36,22 +35,22 @@
 }
 
 .nav_enlaces {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
-  width: 0px;
   hyphens: none;
   overflow: hidden;
   color: white;
   gap: 0;
-  transition: all .5s ease-in;
+  
 }
 
 .activo {
-  width: 100%;
+  display: flex;
   gap: 1em;
 }
 .activo_nav {
+  
   gap: 3em;
 }
 </style>
