@@ -7,17 +7,17 @@ export default {
     return {
       info: [
         {
-          imagen: "../assets/terrraza.jpg",
+          imagen: "./terrraza.jpg",
           subtitulo:
             "Esta es nuestra terraza, el sitio perfecto para cenar con amigos",
         },
         {
-          imagen: "../assets/viernes_las_vegas.png",
+          imagen: "./viernes_las_vegas.png",
           subtitulo:
             "Los viernes son sagrados, es nuestro día estrella, no olvides preguntar por los fuera de carta",
         },
         {
-          imagen: "../assets/gintonic.jpg",
+          imagen: "./gintonic.jpg",
           subtitulo:
             "El after work es vital, ven a tomarte una copa con tus compañeros después del trabajo",
         },

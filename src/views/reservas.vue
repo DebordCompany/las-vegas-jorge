@@ -23,47 +23,47 @@ import tarjetaMenu from "../components/tarjetaMenu.vue";
       <div class="carrousel">
         <tarjetaFotos
           class="tarjeta_item"
-          :imagen="'../src/assets/voll-damm.jpg'"
+          :imagen="'./voll-damm.jpg'"
           :texto="'soy una voll-damm'"
         ></tarjetaFotos>
         <tarjetaFotos
           class="tarjeta_item"
-          :imagen="'../src/assets/voll-damm.jpg'"
+          :imagen="'./voll-damm.jpg'"
           :texto="'soy una voll-damm'"
         ></tarjetaFotos>
         <tarjetaFotos
           class="tarjeta_item"
-          :imagen="'../src/assets/voll-damm.jpg'"
+          :imagen="'./voll-damm.jpg'"
           :texto="'soy una voll-damm'"
         ></tarjetaFotos>
         <tarjetaFotos
           class="tarjeta_item"
-          :imagen="'../src/assets/voll-damm.jpg'"
+          :imagen="'./voll-damm.jpg'"
           :texto="'soy una voll-damm'"
         ></tarjetaFotos>
         <tarjetaFotos
           class="tarjeta_item"
-          :imagen="'../src/assets/voll-damm.jpg'"
+          :imagen="'./voll-damm.jpg'"
           :texto="'soy una voll-damm'"
         ></tarjetaFotos>
         <tarjetaFotos
           class="tarjeta_item"
-          :imagen="'../src/assets/voll-damm.jpg'"
+          :imagen="'./voll-damm.jpg'"
           :texto="'soy una voll-damm'"
         ></tarjetaFotos>
         <tarjetaFotos
           class="tarjeta_item"
-          :imagen="'../src/assets/voll-damm.jpg'"
+          :imagen="'./voll-damm.jpg'"
           :texto="'soy una voll-damm'"
         ></tarjetaFotos>
         <tarjetaFotos
           class="tarjeta_item"
-          :imagen="'../src/assets/voll-damm.jpg'"
+          :imagen="'./voll-damm.jpg'"
           :texto="'soy una voll-damm'"
         ></tarjetaFotos>
         <tarjetaFotos
           class="tarjeta_item"
-          :imagen="'../src/assets/voll-damm.jpg'"
+          :imagen="'./voll-damm.jpg'"
           :texto="'soy una voll-damm'"
         ></tarjetaFotos>
       </div>

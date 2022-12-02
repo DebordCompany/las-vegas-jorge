@@ -1,6 +1,6 @@
 <template>
   <div class="container_item">
-      <img class="container_item_img" :src="imagen" alt="" />
+      <img class="container_item_img" :src=imagen alt="" />
       <h3 class="container_item_h3">{{texto}}</h3>
     </div>
 </template>
