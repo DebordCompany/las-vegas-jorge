@@ -2,7 +2,7 @@
 @import url(/src/assets/reset.css);
 :root {
   --black: #303030;
-  --tipo-principal: "Montserrat Alternates", sans-serif;
+  --tipo-principal: "Montserrat", sans-serif;
   --tipo-secundaria: Montserrat;
   --radio-buttons: "0.3em";
 }
@@ -18,6 +18,6 @@
 }
 
 .max-width {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */

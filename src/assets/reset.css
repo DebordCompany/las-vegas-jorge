@@ -63,14 +63,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 /* Configuramos el texto que seleccionamos */
-::-moz-selection {
-  background-color: var(--negro);
-  color: var(--blanco);
-}
-::selection {
-  background-color: var(--negro);
-  color: var(--blanco);
-}
+
 
 /* Nivelamos problemas de tipografías y colocación de formularios */
 form, input, textarea, select, button, label {
@@ -107,11 +100,12 @@ body {
   font-family: var(--tipo-principal);
   color: var(--black);
   @font-face {
-    font-family: 'Montserrat Alternates', sans-serif;
-    src: url(./fonts/MontserratAlternates-Light.ttf);
+    font-family: 'Montserrat', sans-serif;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf),
+    url(./fonts/Montserrat-Italic_VariableFont_wght-ttf);
   }
   line-height: 1.6em;
-  font-size: 15px;
+  font-size: 16px;
   /* opcional */
   -webkit-hyphens: none;
       -ms-hyphens: none;
